@@ -1,5 +1,6 @@
 import { RabbitMQ } from "./rabbit/rabbit";
-import Content from "./types/Content";
+import Content from "@common/types/Content";
+
 
 async function main() {
     const rabbit: RabbitMQ = new RabbitMQ("newsbot", "amqp://localhost");

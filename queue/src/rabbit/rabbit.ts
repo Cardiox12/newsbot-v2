@@ -1,5 +1,5 @@
-import Content from "../types/Content";
-import IQueue from "../types/IQueue";
+import IQueue from "@common/types/IQueue";
+import Content from "@common/types/Content";
 import amqp from "amqplib";
 
 
