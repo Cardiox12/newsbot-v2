@@ -11,6 +11,11 @@ The bot must be designed to :
     - ...
 - be modular
 - let the community write their own subscriber
+- schedule collection of data sources
+    ```yaml
+    hackernews: every.day.at(10).hour().timezone("America/Los_Angeles")
+    twitter: every.day.at(18).hour().timezone("Europe/Paris")
+    ```
 
 # Data
 
