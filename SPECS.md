@@ -32,7 +32,7 @@ An article is an object with the following fields :
 
 
 ## Database spec
-- Retention time [TTL](https://www.mongodb.com/docs/manual/tutorial/expire-data/)
+- Configure retention time [TTL](https://www.mongodb.com/docs/manual/tutorial/expire-data/)
 
 ## Data spec
 - Create a collection
