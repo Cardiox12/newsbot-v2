@@ -16,6 +16,9 @@ The bot must be designed to :
     hackernews: every.day.at(10).hour().timezone("America/Los_Angeles")
     twitter: every.day.at(18).hour().timezone("Europe/Paris")
     ```
+- define subscriber failure policy
+    - define number of retry
+    - define retry timeout
 
 # Data
 
@@ -28,7 +31,6 @@ An article is an object with the following fields :
     "source"    : "",
 }
 ```
-
 
 
 ## Database spec
