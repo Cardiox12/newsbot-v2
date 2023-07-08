@@ -5,6 +5,24 @@ The bot must be designed to :
 - be highly configurable :
     - configure subscribing schedule time
     - configure subscribers infos (API KEY, SECRETS, ...)
+      - configure publishing schedule time and number of articles : 
+        ```yaml
+        publishers:
+          cycle: "0 10 * * *"
+        
+          sources:
+            hackernews:
+              name: hackernews
+              cycle: "0 10 * * *"
+              timezone: America/Los_Angeles
+              quantity: 5
+        
+            uncle_bob:
+              name: uncle bob
+              cycle: "0 8 * * *"
+              timezone: Europe/Paris
+              quantity: 2
+        ```
 - connect existing subscribers :
     - discord
     - slack
