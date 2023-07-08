@@ -70,3 +70,17 @@ social media, such that cycles of definitive length have largely been supplanted
 reader, or simply an aggregator is client software or a web application that aggregates syndicated web content such as 
 online newspapers, blogs, podcasts, and video blogs (vlogs) in one location for easy viewing. The updates distributed
 may include journal tables of contents, podcasts, videos, and news items.
+
+
+## Sources
+
+- Hackernews 🔥
+- uncle bob 🔥
+- martin fowler 🔥
+- bytebytego 🔥
+- Developpez.net
+- artisandev
+
+
+- youtube.com
+- reddit ?
